@@ -1,10 +1,46 @@
 ---
 title: "r-cubed: Guiding the overwhelmed scientist from random wrangling to Reproducible Research in R"
-subtitle: "Hannah Chatwin, University of Southern Denmark"
-author: "Co-Authors: Luke W. Johnston, Helene Bæk Juel, Bettina Lengger, Daniel R. Witte, Malene Revsbech Christiansen, Anders Aasted Isaksen"
+author: "Hannah Chatwin, Luke W. Johnston, Helene Bæk Juel, Bettina Lengger, Daniel R. Witte, Malene Revsbech Christiansen, Anders Aasted Isaksen"
 output:
-  xaringan::moon_reader:
-    self-contained: true
+    xaringan::moon_reader:
+        lib_dir: libs
+        self-contained: true
+        css: ["useR", "useR-fonts", "footer.css"]
+        nature:
+            ratio: "16:9"
+            countIncrementalSlides: false
+---
+
+layout: true
+
+<div class="my-footer">
+<a href="https://hchats.github.io/user2021/">hchats.github.io/user2021/</a>
+</div> 
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(
+  echo = FALSE,
+  message = FALSE,
+  warning = FALSE,
+  fig.align = "center"
+)
+
+xaringanthemer::style_extra_css(
+    list(
+        "div.my-footer" = list(
+            position = "absolute",
+            background = "transparent",
+            bottom = "0px",
+            left = "120px",
+            height = "30px"
+        )
+    ),
+    outfile = "footer.css",
+    append = FALSE
+)
+```
+
 ---
 
 # Motivation
