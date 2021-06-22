@@ -5,7 +5,7 @@ output:
     xaringan::moon_reader:
         lib_dir: libs
         self-contained: true
-        css: ["useR", "useR-fonts", "footer.css"]
+        css: xaringan-themer.css
         nature:
             ratio: "16:9"
             countIncrementalSlides: false
@@ -39,6 +39,11 @@ xaringanthemer::style_extra_css(
     outfile = "footer.css",
     append = FALSE
 )
+```
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+library(xaringanthemer)
+style_mono_accent(base_color = "#3498DB")
 ```
 
 ---
