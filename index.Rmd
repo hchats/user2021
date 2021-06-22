@@ -111,7 +111,7 @@ output:
 
 - Pre- and post-workshop surveys
 
-- Funded by:
+- Hosted and sponsored by:
 
 .center[![Logo for the Danish Diabetes Academy](images/dda-logo.png)]
 
