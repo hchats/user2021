@@ -112,7 +112,7 @@ knitr::include_graphics("images/r-cubed.jpg")
 
 # Instructions for Instructors
 
-```{r, out.width="70%", fig.alt="'For Instructors' page displaying instructions on how to set up workshop sessions"}
+```{r, out.width="65%", fig.alt="'For Instructors' page displaying instructions on how to set up workshop sessions"}
 knitr::include_graphics("images/instructor-instructions.png")
 ```
 
@@ -158,7 +158,9 @@ knitr::include_graphics("images/instructor-instructions.png")
 
 - Hosted and sponsored by:
 
-.center[![Logo for the Danish Diabetes Academy](images/dda-logo.png)]
+```{r, out.width="20%", fig.alt="Logo for the Danish Diabetes Academy"}
+knitr::include_graphics("images/dda-logo.png")
+```
 
 ---
 
