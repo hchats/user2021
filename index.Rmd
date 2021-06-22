@@ -175,12 +175,7 @@ knitr::include_graphics("images/instructor-instructions.png")
 
 class: center, middle
 
-# Visit! Use! Share!
+# Visit! Use! Share! Thanks for listening
 
 ## [r-cubed.rostools.org/](https://r-cubed.rostools.org/)
 
----
-
-class: center, middle
-
-# Thanks! I can now take questions.
