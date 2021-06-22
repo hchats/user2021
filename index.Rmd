@@ -25,7 +25,9 @@ output:
 
 # Introducing... r-cubed!
 
-.center[![Index page welcoming site visitors to  r-cubed learning module](images/r-cubed.jpg)]
+```{r, out.width="85%", fig.alt="Index page welcoming site visitors to r-cubed learning module"}
+knitr::include_graphics("images/r-cubed.jpg")
+```
 
 ---
 
@@ -69,7 +71,9 @@ output:
 
 # Instructions for Instructors
 
-.center[!["For Instructors" page displaying instructions on how to set up workshop sessions"](images/instructor-instructions.png)]
+```{r, out.width="70%", fig.alt="'For Instructors' page displaying instructions on how to set up workshop sessions"}
+knitr::include_graphics("images/instructor-instructions.png")
+```
 
 ---
 
