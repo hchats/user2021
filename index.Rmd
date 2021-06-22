@@ -5,7 +5,7 @@ output:
     xaringan::moon_reader:
         lib_dir: libs
         self-contained: true
-        css: xaringan-themer.css
+        css: ["xaringan-themer.css", "footer.css"]
         nature:
             ratio: "16:9"
             countIncrementalSlides: false
@@ -33,7 +33,7 @@ xaringanthemer::style_extra_css(
             background = "transparent",
             bottom = "0px",
             left = "120px",
-            height = "30px"
+            height = "40px"
         )
     ),
     outfile = "footer.css",
@@ -41,9 +41,9 @@ xaringanthemer::style_extra_css(
 )
 ```
 
-```{r xaringan-themer, include=FALSE, warning=FALSE}
+```{r xaringan-themer, include=FALSE}
 library(xaringanthemer)
-style_mono_accent(base_color = "#3498DB")
+style_mono_accent(base_color = "#3498DB", base_font_size = "24px")
 ```
 
 ---
@@ -104,15 +104,15 @@ knitr::include_graphics("images/r-cubed.jpg")
 
 - Emphasis on the reproducibility and general workflow
 
-- Cohesion between sub-modules, with later sessions building on skills taught in earlier sessions
+- Cohesion between sub-modules: Later sessions building on skills taught in earlier sessions
 
-- Instructors are provided with comprehensive instructions for how to deliver material effectively in workshops (see [Appendix C](https://r-cubed.rostools.org/for-instructors.html))
+- Targets both learners and instructors: Instructors are provided with comprehensive instructions for how to deliver material effectively in workshops (see [Appendix C](https://r-cubed.rostools.org/for-instructors.html))
 
 ---
 
 # Instructions for Instructors
 
-```{r, out.width="70%", fig.alt="'For Instructors' page displaying instructions on how to set up workshop sessions"}
+```{r, out.width="65%", fig.alt="'For Instructors' page displaying instructions on how to set up workshop sessions"}
 knitr::include_graphics("images/instructor-instructions.png")
 ```
 
@@ -158,7 +158,9 @@ knitr::include_graphics("images/instructor-instructions.png")
 
 - Hosted and sponsored by:
 
-.center[![Logo for the Danish Diabetes Academy](images/dda-logo.png)]
+```{r, out.width="20%", fig.alt="Logo for the Danish Diabetes Academy"}
+knitr::include_graphics("images/dda-logo.png")
+```
 
 ---
 
