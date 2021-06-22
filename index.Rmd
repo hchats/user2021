@@ -33,7 +33,7 @@ xaringanthemer::style_extra_css(
             background = "transparent",
             bottom = "0px",
             left = "120px",
-            height = "30px"
+            height = "40px"
         )
     ),
     outfile = "footer.css",
@@ -41,9 +41,9 @@ xaringanthemer::style_extra_css(
 )
 ```
 
-```{r xaringan-themer, include=FALSE, warning=FALSE}
+```{r xaringan-themer, include=FALSE}
 library(xaringanthemer)
-style_mono_accent(base_color = "#3498DB")
+style_mono_accent(base_color = "#3498DB", base_font_size = "24px")
 ```
 
 ---
