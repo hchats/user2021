@@ -1,0 +1,8 @@
+/* Extra CSS */
+div.my-footer {
+  position: absolute;
+  background: transparent;
+  bottom: 0px;
+  left: 120px;
+  height: 30px;
+}
