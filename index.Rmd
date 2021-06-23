@@ -100,9 +100,9 @@ knitr::include_graphics("images/r-cubed.jpg")
 
 ---
 
-# How is it different from other similar resources?
+# How is it different from other resources?
 
-- Emphasis on the reproducibility and general workflow
+- Emphasis on reproducibility and general workflow
 
 - Cohesion between sub-modules: Later sessions building on skills taught in earlier sessions
 
